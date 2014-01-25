@@ -43,6 +43,17 @@
             </updates>
         </layout>
     </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Mokadev_OpenGraph>
+                    <files>
+                        <default>Mokadev_OpenGraph.csv</default>
+                    </files>
+                </Mokadev_OpenGraph>
+            </modules>
+        </translate>
+    </adminhtml>
     <default>
         <general>
             <opengraph>
