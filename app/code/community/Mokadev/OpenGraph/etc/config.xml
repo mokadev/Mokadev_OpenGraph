@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category Mokadev
+ * @package Mokadev_OpenGraph
+ */
+-->
+<config>
+    <modules>
+        <Mokadev_OpenGraph>
+            <version>0.1.0</version>
+        </Mokadev_OpenGraph>
+    </modules>
+
+    <global>
+        <helpers>
+            <opengraph>
+                <class>Mokadev_OpenGraph_Helper</class>
+            </opengraph>
+        </helpers>
+        <blocks>
+            <opengraph>
+                <class>Mokadev_OpenGraph_Block</class>
+            </opengraph>
+        </blocks>
+    </global>
+
+    <frontend>
+        <translate>
+            <modules>
+                <Mokadev_OpenGraph>
+                    <files>
+                        <default>Mokadev_OpenGraph.csv</default>
+                    </files>
+                </Mokadev_OpenGraph>
+            </modules>
+        </translate>
+        <layout>
+            <updates>
+                <opengraph>
+                    <file>mokadev/opengraph.xml</file>
+                </opengraph>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <general>
+            <opengraph>
+                <is_active>0</is_active>
+            </opengraph>
+        </general>
+    </default>
+</config>

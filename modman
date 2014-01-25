@@ -1,0 +1,7 @@
+#Mokadev_OpenGraph module
+app/etc/modules/Mokadev_OpenGraph.xml                               app/etc/modules/Mokadev_OpenGraph.xml
+app/code/community/Mokadev/OpenGraph                                app/code/community/Mokadev/OpenGraph
+app/design/frontend/base/default/layout/mokadev/opengraph.xml       app/design/frontend/base/default/layout/mokadev/opengraph.xml
+app/design/frontend/base/default/template/mokadev/opengraph         app/design/frontend/base/default/template/mokadev/opengraph
+app/local/en_US/Mokadev_OpenGraph.csv                               app/local/en_US/Mokadev_OpenGraph.csv
+app/local/fr_FR/Mokadev_OpenGraph.csv                               app/local/fr_Fr/Mokadev_OpenGraph.csv

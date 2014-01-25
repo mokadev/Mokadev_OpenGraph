@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <!-- Sur toutes les pages -->
+    <default>
+        <!-- Mokadev_OpenGraph -->
+        <reference name="head">
+            <block type="opengraph/meta" name="open_graph" as="open_graph"/>
+        </reference>
+    </default>
+
+    <!-- fiche produit -->
+    <catalog_product_view>
+        <!-- Mokadev_OpenGraph -->
+        <reference name="head">
+            <block type="opengraph/product" name="open_graph" as="open_graph"/>
+        </reference>
+    </catalog_product_view>
+
+    <!-- liste produit -->
+    <catalog_category_view>
+        <reference name="head">
+            <block type="opengraph/category" name="open_graph" as="open_graph"/>
+        </reference>
+    </catalog_category_view>
+
+    <!-- résultats de recherche -->
+    <catalogsearch_result_index>
+        <reference name="head">
+            <remove name="open_graph"/>
+        </reference>
+    </catalogsearch_result_index>
+
+    <!--page cms -->
+    <cms_page>
+        <!-- Mokadev_OpenGraph -->
+        <reference name="head">
+            <block type="opengraph/cms" name="open_graph" as="open_graph"/>
+        </reference>
+    </cms_page>
+
+</layout>

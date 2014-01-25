@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mokadev_OpenGraph>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Mokadev_OpenGraph>
+    </modules>
+</config>
