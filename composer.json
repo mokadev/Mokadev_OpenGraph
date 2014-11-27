@@ -1,5 +1,5 @@
 {
-    "name": "Mokadev/Mokadev_OpenGraph",
+    "name": "mokadev/opengraph",
     "type": "magento-module",
     "homepage": "http://www.magentleman.com/module-facebook-opengraph-pour-magento/",
     "description": "This extension provide a simple way to add open graph meta tags in Magento.",
