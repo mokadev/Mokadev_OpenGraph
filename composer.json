@@ -1,17 +1,17 @@
 {
     "name": "mokadev/opengraph",
     "type": "magento-module",
-    "homepage": "http://www.magentleman.com/module-facebook-opengraph-pour-magento/",
+    "license":"OSL-3.0",
+    "homepage": "https://github.com/mokadev/Mokadev_OpenGraph",
     "description": "This extension provide a simple way to add open graph meta tags in Magento.",
-    "require": {
-        "magento-hackathon/magento-composer-installer": "*"
-    },
     "authors": [
-    {
+        {
     	"name": "Mohamed Kaïd",
     	"homepage": "http://www.mokadev.com",
-    	"email": "contact [AT] mokadev.com"
+    	"email": "contact@mokadev.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
     }
-
-    ]
 }
