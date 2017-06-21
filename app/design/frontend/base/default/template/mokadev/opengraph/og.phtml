@@ -8,3 +8,11 @@
 <meta property="og:image" content="<?php echo $this->getImage();?>"/>
 <meta property="og:description" content="<?php echo $this->getDescription() ?>"/>
 <!-- EOF OG meta -->
+
+<!-- BOF Twitter Card metadata -->
+<meta property="twitter:card" content="<?php echo $this->getType() ?>"/>
+<meta property="twitter:title" content="<?php echo $this->getTitle() ?>"/>
+<meta property="twitter:description" content="<?php echo $this->getDescription() ?>"/>
+<meta property="twitter:url" content="<?php echo $this->getOgUrl() ?>"/>
+<meta property="twitter:image" content="<?php echo $this->getImage();?>"/>
+<!-- EOF Twitter Card metadata -->
